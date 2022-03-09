@@ -1,0 +1,20 @@
+{
+  "name": "7_curso_asincronismo",
+  "version": "1.0.0",
+  "description": "Trabajar los fundamentos basicos del asincronismo en JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Delta27222",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
