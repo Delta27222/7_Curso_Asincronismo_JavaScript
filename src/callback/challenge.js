@@ -59,15 +59,15 @@ fetchData(api, (error1, data1) => {
       // si error, matamos retornando un error
       if(error3) return console.error(error3);
 
-      // mostramos los resultados :) 
+      // mostramos los resultados :)
       console.log(data1.info.count);
       console.log(data2.name);
       console.log(data3.dimension);
 
       // rutas de las peticiones en orden
       console.log(api);
-      console.log(api + data1.results[0].id); 
-      console.log(data2.origin.url); 
+      console.log(api + data1.results[0].id);
+      console.log(data2.origin.url);
 
     });
   });
