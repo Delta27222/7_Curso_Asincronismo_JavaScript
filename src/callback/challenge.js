@@ -40,7 +40,7 @@ function fetchData(url_api, callback){
   xhttp.send();
 }
 
-// primero buscamos la lista de personajes
+// primero buscamos la lista de personajes hsj
 fetchData(api, (error1, data1) => {
 
   // si error, matamos retornando un error
